@@ -50,7 +50,6 @@ RTF stands for **R**ole, **T**ask, **F**ormat, and is one of the most basic yet 
 
 >_📝 **Note:** Before adding any official templates or branding design requirements for the AI to use as a format, check with your company's information security policy and GenAI guidelines to confirm what kind of information can and cannot be uploaded to the AI service._
 
-
 ### CREATE
 
 CREATE stands for **C**haracter, **R**equest, **E**xamples, **A**djustments, **T**ypes, and **E**valuation. Similar to RTF, the CREATE formula includes the persona, task instructions, and output format requirements, but it goes into more detail by adding constraints like tone, as well as a validation step that includes some self-check instructions like alignment with sources. This more thorough structure makes CREATE useful for complex tasks like creating a detailed analysis of a dataset that supplements a larger report. 
@@ -82,7 +81,7 @@ PEAR stands for **P**ersona, **E**xamples, **A**ction, and **R**esults. It is a 
  
  **STAR**
  
- STAR stands for **S**ituation, **T**ask, **A**ction, and **R**esult. This is another simple and easy-to-use formula that is similar in structure to RTF, CREATE, and PEAR by including the context of the request in the situation component (e.g., personas and task purpose) and any formatting requirements in the result component.
+STAR stands for **S**ituation, **T**ask, **A**ction, and **R**esult. This is another simple and easy-to-use formula that is similar in structure to RTF, CREATE, and PEAR by including the context of the request in the situation component (e.g., personas and task purpose) and any formatting requirements in the result component.
 
 In my personal experience, I have found RTF and CREATE to be the most effective formulas given their logical structure and their highly focused coverage of essential prompt components like persona, task instructions, and output format. But these frameworks are not a one-size-fits-all standard. Instead, they are flexible structures that can be adapted to different tasks and workflows, so it is always recommended to experiment with each formula, mix and match, or even come up with your own!
 
@@ -114,6 +113,10 @@ Depending on how detailed a response you need, it can be difficult to get the ex
 
 The experimental nature of prompt engineering also makes it a valuable resource for archiving information for later use. When working on a project, document the prompt patterns that produced the best output and even the ones that did not quite work. Also note what AI service was used, and include any pros and cons that you found. It can even be helpful to set up a scoring system for response quality that you can apply to any GenAI service and any content type. Then consolidate this information as a body of knowledge, and share it within your team. You might be able to use any past prompts or experiences as fuel for your next project and offer some insight to your colleagues when they are working on their own prompts. This can also help ensure consistency of output across projects in your organization. Prompt engineering can be a collaborative effort with rewarding results!
 
+![Figure_3](prompt-engineering-best-practices-image-files/Gemini_Best_Practices_for_Prompt_Engineering_-_Figure_3.png)
+
+_Image prepared using Google Gemini_
+
 ## Experiment: Creating an Infographic
 
 Whether you are preparing a document template or creating an image, experimenting with different prompt formulas and AI services can help identify which prompting strategies and models produce the highest-quality results. The following experiment compares the RTF and CREATE formulas using two different GenAI models, Model A and Model B, to generate an infographic about prompt engineering.
@@ -130,7 +133,7 @@ The below table summarizes the purpose of each metric and the point methodology 
 |**Completeness** |Checks whether the AI fulfilled all prompt requirements and whether all requested content has been generated |**2 Points:** All instructions were completed without any missing content in the response<br><br>**1 Point:** The AI completed at least 80% of the task requirements, but not 100%<br><br>**0 Points:** The AI response achieved less than 80% of the requirements|
 |**Compliance** |Checks whether the AI adhered to the requested adjustments and constraints; in this exercise, we will experiment with the source of information (e.g., _Use only content found in the attached document_) and formatting|**2 Points:** The output fully meets all requested adjustments and constraints<br><br>**1 Point:** The AI achieved at least 80% of the requested constraints, but not 100%<br><br>**0 Points:** The output met less than 80% of the requested constraints|
 |**Readability** |Evaluates the quality of the visuals, including text, diagrams, and icons |**2 Points:** All text and visual elements are clearly legible in a standard viewing format without visual strain, distortion, or grammatical mistakes<br><br>**1 Point:** The text and visualizations are mostly easy to read but contain some minor grammatical mistakes or fuzzy visuals<br><br>**0 Points:** The text and/or visualizations are difficult to read due to multiple grammatical mistakes, blurred color contrasts, overlapping diagrams, etc. |
-|**Number of Iterations** |Records the number of prompt updates needed to achieve the requested deliverable; the fewer the number of retries, the better|**2 Points:** Acceptable results achieved in 1~2 tries<br><br>**1 Point:** Acceptable results achieved in 3~4 tries<br><br>**0 Points:** Acceptable results were not achieved after 5 tries|
+|**Number of Iterations** |Records the number of prompt updates needed to achieve the requested deliverable; the fewer the number of retries, the better|**2 Points:** Acceptable results achieved in 1-2 tries<br><br>**1 Point:** Acceptable results achieved in 3-4 tries<br><br>**0 Points:** Acceptable results were not achieved after 5 tries|
 
 ### Experimental Controls
 
