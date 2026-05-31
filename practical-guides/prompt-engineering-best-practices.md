@@ -8,7 +8,7 @@ Casually conversing with AI, seeking advice, or requesting information may alrea
 
 This is where prompt engineering comes into play. Prompt engineering is the practice of structuring AI instructions to produce more accurate, useful, and consistent outputs. It involves writing and structuring prompts for a specific objective, then testing, evaluating, and iteratively improving them until the desired result is achieved. This process may also include providing the AI with feedback about the quality, structure, or accuracy of its responses. At its core, prompt engineering is essentially communicating with AI systems in a deliberate and structured way using natural language.
 
-<img src="/Users/user/Documents/GenAI Prompt Engineering/Gemini_Best_Practices_for_Prompt_Engineering_-_Figure_1.png">
+![Figure_1](Gemini_Best_Practices_for_Prompt_Engineering_-_Figure_1.png)
 
 _Image prepared using Google Gemini_
 
@@ -32,7 +32,7 @@ This is where the meat and potatoes of the prompt can be found. Instead of one-l
 
 Lastly, if available, you can request the AI to structure the response in a particular format. Similar to the detailed task instructions, a pre-defined format for the response, such as a table or list of bullet points, can also help increase the user's control over the final product. This is particularly useful for aligning the AI's response to a readable and usable format that can be easily consumed by users.
 
-<img src="/Users/user/Documents/GenAI Prompt Engineering/Gemini_Best_Practices_for_Prompt_Engineering_-_Figure_2.png">
+![Figure_2](Gemini_Best_Practices_for_Prompt_Engineering_-_Figure_2.png)
 
 _Image prepared using Google Gemini_
 
