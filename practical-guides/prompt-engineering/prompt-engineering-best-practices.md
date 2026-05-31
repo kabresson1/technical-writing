@@ -150,8 +150,6 @@ To ensure fairness in the experiment, the following controls were applied to bot
 
 Below are the two prompts that we will test, one using the RTF formula, and the other using CREATE. Both models will also be given constraints to comply with. For example, the source of information must only come from the input data and the output format must align with the given instructions.
 
-> _📝 **Note:** Because the CREATE framework includes additional components such as examples and evaluation instructions, it is naturally more detailed than the RTF prompt. This difference reflects the intended structure of each formula and is part of the comparison being evaluated._
-
 **RTF**
 
 ```
@@ -214,6 +212,10 @@ The format of the infographic should follow the below guidelines:
 Ensure that all content written in the infographic is based on the information provided in Attachment 1. Ensure that there are no spelling or grammatical errors, and that all text has a logical flow and is written in a professional tone. Ensure clear separations between sections and sufficient spacing between text and visual elements. Ensure that there are no overlaps between shapes or diagrams.
 ```
 
+> _📝 **Note 1:** Because the CREATE framework includes additional components such as examples and evaluation instructions, it is naturally more detailed than the RTF prompt. This difference reflects the intended structure of each formula and is part of the comparison being evaluated._
+
+> _📝 **Note 2:** The "Introduction", "Common Prompt Formulas", and "Best Practices for Effective Prompts" sections of this guide were provided to both models as "Attachment 1" and served as the source of information for the infographic content._
+
 ### Results
 
 #### RTF
@@ -235,6 +237,14 @@ Interestingly, Model B sometimes responded with plain text instead of an image, 
 |**Number of Iterations**|1|0|
 |**Total Score:**|**8**|**4**|
 
+##### Model A Final Output
+
+![Figure_4](prompt-engineering-best-practices-image-files/RTF_Model_A_Final_Output.png)
+
+##### Model B Final Output
+
+![Figure_5](prompt-engineering-best-practices-image-files/RTF_Model_B_Final_Output.png)
+
 #### CREATE
 
 With the CREATE formula, a usable infographic was also created by Model A in 3 tries, while Model B required 6, though some minor font size issues still remained.
@@ -251,6 +261,14 @@ The first result from Model B was surprising: the generated image was mostly a s
 |**Readability** |1 |1|
 |**Number of Iterations**|1 |0|
 |**Total:**|**7**|**2**|
+
+##### Model A Final Output
+
+![Figure_6](prompt-engineering-best-practices-image-files/CREATE_Model_A_Final_Output.png)
+
+##### Model B Final Output
+
+![Figure_7](prompt-engineering-best-practices-image-files/CREATE_Model_B_Final_Output.png)
 
 ### Key Takeaways
 
