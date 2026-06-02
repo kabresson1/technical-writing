@@ -8,7 +8,7 @@ Casually conversing with AI, seeking advice, or requesting information may alrea
 
 This is where prompt engineering comes into play. Prompt engineering is the practice of structuring AI instructions to produce more accurate, useful, and consistent outputs. It involves writing and structuring prompts for a specific objective, then testing, evaluating, and iteratively improving them until the desired result is achieved. This process may also include providing the AI with feedback about the quality, structure, or accuracy of its responses. At its core, prompt engineering is essentially communicating with AI systems in a deliberate and structured way using natural language.
 
-![Figure_1](prompt-engineering-best-practices-image-files/Gemini_Best_Practices_for_Prompt_Engineering_-_Figure_1.png)
+![Figure_1](image-files/Gemini_Best_Practices_for_Prompt_Engineering_-_Figure_1.png)
 
 _Image prepared using Google Gemini_
 
@@ -32,7 +32,7 @@ This is where the meat and potatoes of the prompt can be found. Instead of one-l
 
 Lastly, if available, you can request the AI to structure the response in a particular format. Similar to the detailed task instructions, a pre-defined format for the response, such as a table or list of bullet points, can also help increase the user's control over the final product. This is particularly useful for aligning the AI's response to a readable and usable format that can be easily consumed by users.
 
-![Figure_2](prompt-engineering-best-practices-image-files/Gemini_Best_Practices_for_Prompt_Engineering_-_Figure_2.png)
+![Figure_2](image-files/Gemini_Best_Practices_for_Prompt_Engineering_-_Figure_2.png)
 
 _Image prepared using Google Gemini_
 
@@ -105,6 +105,8 @@ One concern that looms over the use of GenAI, especially in business, is the rel
 
 While it is important to provide the AI with specific instructions, there is such a thing as _too much_ information. Overly complex prompts comprising multiple tasks in one go can make it difficult for AI to parse through the input and complete each step properly. Using step-by-step prompting techniques, often referred to as "Chain-of-Thought" prompting, to organize a request into separate instructions with a logical flow can make it easier for the AI to recognize the task requirements and follow the instructions more carefully. This kind of prompt structure can either be written as separate actions in the same prompt, or sent as individual requests in a multi-turn conversation, giving the AI the chance to build knowledge and refine the output iteratively. The latter technique can be especially useful when working on tasks with higher complexity, like building a project charter with several sections.
 
+On a related note, there is an interesting paper from [Wei et al. (2022)](https://arxiv.org/pdf/2201.11903) that investigates the chain-of-thought approach in prompts, where the team used logical sequencing in examples provided to LLMs to improve reasoning ability and accuracy of responses.
+
 **5. Experiment and iterate to refine prompts for achieving output that meets your needs**
 
 Depending on how detailed a response you need, it can be difficult to get the exact output you want with just one prompt. It can take a few iterations of writing and re-writing instructions and evaluating responses for quality and coverage. But this is also one of the advantages of using GenAI as a copilot in content creation. Approach prompt writing as an experiment. Try out various prompt formulas, establish quality criteria to compare the results to, and then modify prompts as needed. With a little patience and curiosity, prompt engineering can be a fun process of trial and error!
@@ -113,13 +115,13 @@ Depending on how detailed a response you need, it can be difficult to get the ex
 
 The experimental nature of prompt engineering also makes it a valuable resource for archiving information for later use. When working on a project, document the prompt patterns that produced the best output and even the ones that did not quite work. Also note what AI service was used, and include any pros and cons that you found. It can even be helpful to set up a scoring system for response quality that you can apply to any GenAI service and any content type. Then consolidate this information as a body of knowledge, and share it within your team. You might be able to use any past prompts or experiences as fuel for your next project and offer some insight to your colleagues when they are working on their own prompts. This can also help ensure consistency of output across projects in your organization. Prompt engineering can be a collaborative effort with rewarding results!
 
-![Figure_3](prompt-engineering-best-practices-image-files/Gemini_Best_Practices_for_Prompt_Engineering_-_Figure_3.png)
+![Figure_3](image-files/Gemini_Best_Practices_for_Prompt_Engineering_-_Figure_3.png)
 
 _Image prepared using Google Gemini_
 
 ## Experiment: Creating an Infographic
 
-Whether you are preparing a document template or creating an image, experimenting with different prompt formulas and AI services can help identify which prompting strategies and models produce the highest-quality results. The following experiment compares the RTF and CREATE formulas using two different GenAI models, Model A and Model B, to generate an infographic about prompt engineering.
+Whether you are preparing a document template or creating an image, experimenting with different prompt formulas and AI services can help identify which prompting strategies and models produce the highest-quality results. The following experiment compares the RTF and CREATE formulas using two GenAI models, Model A and Model B, to generate an infographic about prompt engineering. The objective of the experiment is to compare both prompt formulas with different models and evaluate their impact on output quality, compliance, readability, and efficiency in terms of number of edits required.
 
 ### Evaluation Rubric
 
@@ -239,11 +241,11 @@ Interestingly, Model B sometimes responded with plain text instead of an image, 
 
 ##### Model A Final Output
 
-![Figure_4](prompt-engineering-best-practices-image-files/RTF_Model_A_Final_Output.png)
+![Figure_4](image-files/RTF_Model_A_Final_Output.png)
 
 ##### Model B Final Output
 
-![Figure_5](prompt-engineering-best-practices-image-files/RTF_Model_B_Final_Output.png)
+![Figure_5](image-files/RTF_Model_B_Final_Output.png)
 
 #### CREATE
 
@@ -264,17 +266,19 @@ The first result from Model B was surprising: the generated image was mostly a s
 
 ##### Model A Final Output
 
-![Figure_6](prompt-engineering-best-practices-image-files/CREATE_Model_A_Final_Output.png)
+![Figure_6](image-files/CREATE_Model_A_Final_Output.png)
 
 ##### Model B Final Output
 
-![Figure_7](prompt-engineering-best-practices-image-files/CREATE_Model_B_Final_Output.png)
+![Figure_7](image-files/CREATE_Model_B_Final_Output.png)
 
 ### Key Takeaways
 
-One of the biggest insights from this experiment is the importance of clarity in prompt instructions. With both the RTF and CREATE formulas, more details on formatting requirements, such as text alignment and the use of bold text, and clearer examples may have benefitted the final results. Specifications on file format might have been useful as well, as seen with Model B. Some models may have different configurations for their response structures, so including concrete requirements on output format is likely a best practice that can be generalized across multiple GenAI services.
+One of the biggest insights from this experiment is the importance of clarity in prompt instructions. With both the RTF and CREATE formulas, more carefully crafted details on formatting requirements, such as text alignment and the use of bold text, and clearer examples may have benefitted the final results. Specifications on file format might have been useful as well, as seen with Model B. Some models may have different configurations for their response structures, so including concrete requirements on output format is likely a best practice that can be generalized across multiple GenAI services.
 
-Another major takeaway is the following: more detail is not always better. Although the CREATE formula comes with added benefits from detailed examples and validation mechanisms, the additional prompt structure did not translate into measurable improvements for Model A in this particular task. Also, the increased prompt complexity may have exceeded Model B's ability to satisfy all requirements.
+On the other hand, another major takeaway is the following: more detail is not always better. Although the CREATE formula comes with added benefits from detailed examples and validation mechanisms, the additional prompt structure did not translate into measurable improvements for Model A in this particular task. Also, the increased prompt complexity may have impacted Model B's ability to satisfy all requirements.
+
+Similar to the above, a potential improvement to the experiment itself might also be revising the prompts to use more direct and simple action-oriented language (e.g., "**Organize** the content..." rather than "The content **should be organized**..."), which is also a recommendation in [this prompt engineering guide from Google](https://cloud.google.com/discover/what-is-prompt-engineering?hl=en#strategies-for-writing-better-prompts). Updating the prompts this way may help determine whether imperative wording improves compliance and output quality, and could be a worthwhile follow-up experiment to try.
 
 Lastly, the experiment also showed that different GenAI services may exhibit different failure modes, as seen with the edits required to both models with both prompt types. This reinforces the importance of testing prompts across multiple models whenever possible, even when using paid subscriptions that might come with enhanced features.
 
