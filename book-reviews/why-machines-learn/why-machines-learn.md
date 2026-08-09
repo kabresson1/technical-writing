@@ -11,6 +11,9 @@ With a desire to dive deeper into the theory behind AI and machine learning, I w
 
 This book helps answer a question that many people might have when they start learning about AI: how does a machine actually _learn_? The author structured the book in a way that helps the reader understand both the history behind AI research and the applications of mathematics in machine learning algorithms with thorough introductions, explanations, and examples, making it a recommended read for anyone looking to build a strong foundation in AI and machine learning concepts.
 
+![Studying Machine Learning](image-files/Gemini_Introduction_Diagram.png)
+_Image created with the help of Google Gemini._
+
 The following are some of the key insights and personal learnings that I drew from the book, as well as some areas that the book inspired me to explore further.
 
 ## Key Insights
