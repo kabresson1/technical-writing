@@ -16,4 +16,10 @@ This project aims to apply and evaluate prompt engineering concepts in practice 
 ## Repository Contents
 
 * `prompt-engineering-best-practices.md` - Main guide
-* `images/` - Images used in the guide and final infographic outputs from the experiment
+* `images/` - Images used in the guide, final infographic outputs from the experiment, and images used in publishing on external sites
+
+## Published Versions
+
+The book review is also available on LinkedIn at the below link:
+
+* [LinkedIn](https://www.linkedin.com/pulse/best-practices-prompt-engineering-kenneth-bresson-pmp-kjmnc/)

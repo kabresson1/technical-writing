@@ -10,7 +10,7 @@ This is where prompt engineering comes into play. Prompt engineering is the prac
 
 ![Figure_1](image-files/Gemini_Best_Practices_for_Prompt_Engineering_-_Figure_1.png)
 
-_Image prepared using Google Gemini_
+_Image created with the help of Google Gemini._
 
 Learning how to apply prompt engineering techniques effectively can require experimentation and practice, particularly in professional or business settings where the quality of output is critical. In the following sections, we will explore several commonly used prompting methods, practical best practices, and a short experiment demonstrating how prompt engineering can improve AI-generated outputs using infographic creation as an example.
 
@@ -32,9 +32,9 @@ This is where the meat and potatoes of the prompt can be found. Instead of one-l
 
 Lastly, if available, you can request the AI to structure the response in a particular format. Similar to the detailed task instructions, a pre-defined format for the response, such as a table or list of bullet points, can also help increase the user's control over the final product. This is particularly useful for aligning the AI's response to a readable and usable format that can be easily consumed by users.
 
-![Figure_2](image-files/Gemini_Best_Practices_for_Prompt_Engineering_-_Figure_2.png)
+![Figure_2](image-files/Gemini_Best_Practices_for_Prompt_Engineering_-_Figure_2_Revised.jpeg)
 
-_Image prepared using Google Gemini_
+_Image created with the help of Google Gemini._
 
 Prompt formulas can help reduce ambiguity in requests and enable more control of the formatting of the final output. Below are two particularly useful prompt formulas that follow this general structure and serve as a launch pad for organized prompts that can be applied to various use cases, including document creation and image generation.
 
@@ -117,7 +117,7 @@ The experimental nature of prompt engineering also makes it a valuable resource 
 
 ![Figure_3](image-files/Gemini_Best_Practices_for_Prompt_Engineering_-_Figure_3.png)
 
-_Image prepared using Google Gemini_
+_Image created with the help of Google Gemini._
 
 ## Experiment: Creating an Infographic
 
@@ -262,7 +262,7 @@ The first result from Model B was surprising: the generated image was mostly a s
 |**Compliance** |1|0|
 |**Readability** |1 |1|
 |**Number of Iterations**|1 |0|
-|**Total:**|**7**|**2**|
+|**Total Score:**|**7**|**2**|
 
 ##### Model A Final Output
 
@@ -323,7 +323,7 @@ Overall, prompt quality depends not only on the amount of information provided, 
 
 ### Further Learning
 
-* ["Talking to AI: Prompt Engineering for Project Managers"](https://www.pmi.org/shop/p-/elearning/talking-to-ai-prompt-engineering-for-project-managers/)
+* [Talking to AI: Prompt Engineering for Project Managers](https://www.pmi.org/shop/p-/elearning/talking-to-ai-prompt-engineering-for-project-managers/el128)
     * A course from the Project Management Institute (PMI) that influenced several of the concepts and ideas discussed in this guide; it provides a comprehensive introduction to prompt engineering, including formulas like CREATE and RTF, with a focus on using GenAI in project management tasks
 * [Mastering Prompt Engineering: A Guide to Crafting Effective Prompts and Evaluating Outputs](https://medium.com/@javeria-khalid-dataanalyst/mastering-prompt-engineering-a-guide-to-crafting-effective-prompts-and-evaluating-outputs-ae80b18146b6)
     * A helpful guide on prompt engineering written by Javeria Khalid on Medium that covers best practices, important considerations, and prompt evaluation methods, including LLM self-assessments
