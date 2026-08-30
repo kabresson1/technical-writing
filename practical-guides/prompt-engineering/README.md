@@ -20,6 +20,7 @@ This project aims to apply and evaluate prompt engineering concepts in practice 
 
 ## Published Versions
 
-The book review is also available on LinkedIn at the below link:
+The practical guide is also available on LinkedIn and Medium at the below links:
 
 * [LinkedIn](https://www.linkedin.com/pulse/best-practices-prompt-engineering-kenneth-bresson-pmp-kjmnc/)
+* [Medium](https://medium.com/@kennybresson/best-practices-for-prompt-engineering-b430b16a6ead)
